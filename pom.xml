@@ -45,4 +45,43 @@
             </plugin>
         </plugins>
     </build>
+
+    <!-- maven remote repository -->
+    <repositories>
+        <repository>
+            <id>public</id>
+            <url>http://repo.haier.net/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <url>http://repo.haier.net/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>releases</name>
+            <url>http://repo.haier.net/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>snapshots</name>
+            <url>http://repo.haier.net/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
