@@ -1,0 +1,7 @@
+zuul:
+  routes:
+    service0:
+      path: /api/**
+      url: ms001
+server:
+  port: 8769
