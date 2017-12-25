@@ -2,6 +2,6 @@ zuul:
   routes:
     service0:
       path: /api/**
-      url: ms001
+      url: http://ms001:8090
 server:
   port: 8769
