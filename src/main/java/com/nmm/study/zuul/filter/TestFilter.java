@@ -30,8 +30,8 @@ public class TestFilter extends ZuulFilter {
     @Override
     public Object run() {
         RequestContext requestContext = RequestContext.getCurrentContext();//获取请求容器
-        requestContext.setSendZuulResponse(false);//允许发送
-        requestContext.setResponseStatusCode(401);
+        requestContext.setSendZuulResponse(true);//允许发送
+        requestContext.setResponseStatusCode(200);
         return null;
     }
 }
