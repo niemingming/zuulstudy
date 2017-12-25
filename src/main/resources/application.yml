@@ -2,6 +2,6 @@ zuul:
   routes:
     service0:
       path: /api/**
-      url: http://micro.s.haier.net/
+      url: http://ms001:8090/
 server:
   port: 8769
