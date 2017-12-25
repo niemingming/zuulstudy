@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="zuulstudy:jar">
-    <output-path>$PROJECT_DIR$/zuulstudy_jar</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/zuulstudy_jar</output-path>
     <root id="archive" name="zuulstudy.jar">
       <element id="module-output" name="zuulstudy" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.jar" path-in-jar="/" />
