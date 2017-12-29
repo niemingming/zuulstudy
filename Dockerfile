@@ -1,4 +1,4 @@
-FROM java:8u111-jre
+FROM jdkwithmaven:v0.0.1
 mvn clean package -Dmaven.test.skip -U
 add target/zuulstudy-1.0-SNAPSHOT.jar  /zuulstudy.jar
 EXPOSE 8080
